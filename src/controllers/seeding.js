@@ -1,7 +1,7 @@
 module.exports = function ($scope, $state) {
     var that = this;
     that.seeded = false;
-    $scope.movesNeeded = 2048;
+    $scope.movesNeeded = 4096;
     $scope.movesGiven = 0;
     that.seed = function () {
       var entropy = [];
